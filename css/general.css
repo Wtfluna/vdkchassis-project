@@ -211,15 +211,15 @@ body {
 }
 
 .btn--form {
-  background-color: #009bde;
-  color: #fdf2e9;
+  background-color: #1b375b;
+  color: #e8ecf6;
   align-self: end;
   padding: 1.2rem;
 }
 
 .btn--form:hover {
-  background-color: #fff;
-  color: #555;
+  background-color: #1864ab;
+  color: #fdf2e9;
 }
 .link:link,
 .link:visited {

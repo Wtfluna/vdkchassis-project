@@ -140,6 +140,75 @@
           </figure>
         </div>
       </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Demande de devis gratuit</h2>
+              <p class="cta-text">
+                Pour votre demande de devis gratuit ou pour tout renseignement
+                complémentaire, n’hésitez pas à nous contacter via notre
+                formulaire en ligne. Nous nous ferons un plaisir de vous
+                répondre et ce, endéans 48 heures.
+              </p>
+              <form class="cta-form" action="#">
+                <!-- Add an "id" on the input and "for" on the label allow user to be place in the placeholder when he clicks on the label -->
+                <div>
+                  <label for="full-name">Votre nom</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Jean Dupont"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="moi@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="tel">Téléphone</label>
+                  <input
+                    id="tel"
+                    type="tel"
+                    placeholder="0411223344"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Choix du matériau</label>
+                  <select id="select-where" required>
+                    <option value="">Choisissez:</option>
+                    <option value="friends">PVC</option>
+                    <option value="youtube">Aluminium</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="select-where">Nature du projet</label>
+                  <select id="select-where" required>
+                    <option value="">Choisissez:</option>
+                    <option value="friends">Nouvelle construction</option>
+                    <option value="youtube">Rénovation</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">Envoyer</button>
+              </form>
+            </div>
+            <!-- we put role to show that the div is for an image, so we can add aria-label as an alt -->
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container grid grid--footer">
